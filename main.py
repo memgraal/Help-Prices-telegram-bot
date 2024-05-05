@@ -4,7 +4,7 @@ from telebot.types import Message
 from products import Perecrestok, SevenSteps
 
 
-bot = TeleBot(token = "6611539409:AAFc2AgxMZc-LnsHXnuVMYQR98p4vXFGAyo")
+bot = TeleBot(token = "")
 
 
 @bot.message_handler(commands = ['start', 'hello'])
